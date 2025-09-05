@@ -7,7 +7,7 @@ public class SumComparison {
     private static final int size = 10000;
     private static final int threads = Math.max(2, Runtime.getRuntime().availableProcessors());
     private static final int delayMs = 1;
-    private static final int threshold = 1000;
+    private static final int threshold = 5000;
     private static final int[] array = new int[size];
 
     static {
